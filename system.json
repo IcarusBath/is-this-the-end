@@ -28,7 +28,7 @@
         "type": "Item"
       }
     ],
-    "manifest": "https://your-repository-url.com/system.json",
+    "manifest": "https://raw.githubusercontent.com/IcarusBath/is-this-the-end/refs/heads/main/system.json?token=GHSAT0AAAAAACZERILPWWV5CR27FXSUVH7KZYSCHKA",
     "download": "https://your-repository-url.com/is-this-the-end.zip",
     "readme": "README.md",
     "license": "LICENSE.md",
