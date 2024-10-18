@@ -1,0 +1,34 @@
+<div class="character-sheet">
+    <h1>{{name}}</h1>
+    <div class="section stats">
+      <h2>Stats</h2>
+      <p>Cool: {{data.stats.cool}}</p>
+      <p>Hard: {{data.stats.hard}}</p>
+      <p>Sharp: {{data.stats.sharp}}</p>
+      <p>Skill: {{data.stats.skill}}</p>
+      <p>Warm: {{data.stats.warm}}</p>
+    </div>
+    <div class="section health">
+      <h2>Health and Stress</h2>
+      <p>Health: {{data.health.current}} / {{data.health.max}}</p>
+      <p>Stress: {{data.stress.current}} / {{data.stress.max}}</p>
+    </div>
+    <div class="section resources">
+      <h2>Resources</h2>
+      <p>Food & Water: {{data.resources.foodWaterRP}}</p>
+      <p>Medical: {{data.resources.medicalRP}}</p>
+      <p>Ammo: {{data.resources.ammoRP}}</p>
+      <p>Material: {{data.resources.materialRP}}</p>
+      <p>Fuel: {{data.resources.fuelRP}}</p>
+      <p>Equipment: {{data.resources.equipmentRP}}</p>
+    </div>
+    <div class="section moves">
+      <h2>Moves</h2>
+      {{#each data.moves.playbook}}
+        <div class="move">
+          <strong>{{this.name}}</strong>: {{this.description}}
+        </div>
+      {{/each}}
+    </div>
+  </div>
+  

@@ -1,0 +1,74 @@
+{
+    "IS_THIS_THE_END": {
+      "NAME": "Name",
+      "PLAYBOOK": "Playbook",
+      "BACKGROUND": "Background",
+      "APPEARANCE": "Appearance",
+      "AGE": "Age",
+      "PRONOUNS": "Pronouns",
+      "STATS": {
+        "COOL": "Cool",
+        "HARD": "Hard",
+        "SHARP": "Sharp",
+        "SKILL": "Skill",
+        "WARM": "Warm",
+        "DESCRIPTION": {
+          "COOL": "Used for staying calm, sneaking, and reacting quickly.",
+          "HARD": "Used for fighting, enduring pain, and physical actions.",
+          "SHARP": "Used for perception, scavenging, and problem-solving.",
+          "SKILL": "Used for specialized tasks like repairs, medicine, etc.",
+          "WARM": "Used for social interactions, morale, and inspiring others."
+        }
+      },
+      "HEALTH": "Health",
+      "STRESS": "Stress",
+      "MOVES": {
+        "BASIC_MOVES": "Basic Moves",
+        "PLAYBOOK_MOVES": "Playbook Moves",
+        "MOVE_NAME": "Move Name",
+        "DESCRIPTION": "Description"
+      },
+      "RESOURCES": {
+        "FOOD_WATER_RP": "Food & Water RP",
+        "MEDICAL_RP": "Medical RP",
+        "AMMO_RP": "Ammo RP",
+        "MATERIAL_RP": "Material RP",
+        "FUEL_RP": "Fuel RP",
+        "EQUIPMENT_RP": "Equipment RP"
+      },
+      "GEAR": {
+        "WEAPONS": "Weapons",
+        "ARMOR": "Armor",
+        "TOOLS": "Tools",
+        "SPECIAL_ITEMS": "Special Items",
+        "CONDITION": {
+          "NEW": "New",
+          "GOOD": "Good",
+          "WORN": "Worn",
+          "DAMAGED": "Damaged",
+          "BROKEN": "Broken"
+        }
+      },
+      "SETTLEMENT": {
+        "BASE_LOCATION": "Base Location",
+        "DEFENSE_POINTS": "Defense Points",
+        "COMFORT_LEVEL": "Comfort Level",
+        "SURVIVORS": "Other Survivors",
+        "SURVIVOR_NAME": "Name",
+        "SURVIVOR_ROLE": "Role",
+        "SURVIVOR_HEALTH": "Health"
+      },
+      "ADVANCEMENT": {
+        "ADVANCEMENT_TRACK": "Advancement Track",
+        "TRAITS": "Character Traits"
+      },
+      "BUTTONS": {
+        "ROLL": "Roll",
+        "SAVE": "Save",
+        "CANCEL": "Cancel",
+        "EDIT": "Edit",
+        "DELETE": "Delete"
+      }
+    }
+  }
+  

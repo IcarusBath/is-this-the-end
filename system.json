@@ -1,0 +1,37 @@
+{
+    "name": "is-this-the-end",
+    "title": "Is This The End",
+    "description": "A custom game system for a zombie apocalypse TTRPG using Powered by the Apocalypse rules.",
+    "version": "0.1.0",
+    "author": "Your Name",
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "10",
+    "esmodules": [
+      "scripts/sheet.js"
+    ],
+    "styles": [
+      "css/styles.css"
+    ],
+    "template": "templates/actor/character-sheet.html",
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "packs": [
+      {
+        "name": "example-compendium",
+        "label": "Example Compendium",
+        "path": "packs/example-compendium.db",
+        "type": "Item"
+      }
+    ],
+    "manifest": "https://your-repository-url.com/system.json",
+    "download": "https://your-repository-url.com/is-this-the-end.zip",
+    "readme": "README.md",
+    "license": "LICENSE.md",
+    "bugs": "https://your-repository-url.com/issues"
+  }
+  
